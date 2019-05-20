@@ -1,0 +1,422 @@
+MÉTODO SELECCIÓN;MÉTODO CRUZAMIENTO;MÉTODO MUTACIÓN
+ranking;complement_binomial;simple
+""
+ITERACIÓN #;0
+MEJOR APTITUD:;6
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Bicycle;9;Movies
+Sonia;Professor;Bus;8.5;Soccer
+Santiago;Merchant;Bicycle;8;Series
+Santiago;Accountant;Motorbike;8.5;Comedy
+Antonella;Engineer;Bus;9;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;0;0;0;0;0;0;1;1;1;1;0;0;1;0
+""
+ITERACIÓN #;1
+MEJOR APTITUD:;6
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Santiago;Police;Bus;8;Novel
+Omar;Accountant;Motorbike;7;Comedy
+Antonella;Accountant;Bus;9;Movies
+Antonella;Professor;Car;7;Novel
+Sonia;Police;Car;7;Comedy
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;0;1;0;0;1;1;0;0;1;1;0;0
+""
+ITERACIÓN #;2
+MEJOR APTITUD:;7
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Antonella;Accountant;Motorbike;7.5;Series
+Sonia;Engineer;Bicycle;8.5;Soccer
+Omar;Accountant;Bicycle;7;Comedy
+Sonia;Accountant;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;0;0;0;0;0;0;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;3
+MEJOR APTITUD:;7
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Santiago;Accountant;Motorbike;8;Novel
+Juan;Accountant;Motorbike;8;Comedy
+Antonella;Accountant;Bus;9;Movies
+Omar;Professor;Car;7;Novel
+Sonia;Police;Car;7;Comedy
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;0;1;0;0;1;1;0;0;1;1;0;0
+""
+ITERACIÓN #;4
+MEJOR APTITUD:;7
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Engineer;Car;7;Novel
+Sonia;Engineer;Bicycle;8.5;Soccer
+Antonella;Accountant;Motorbike;8;Series
+Sonia;Accountant;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;0;0;1;0;1;1;1;1;1;1;0;0
+""
+ITERACIÓN #;5
+MEJOR APTITUD:;8
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Juan;Accountant;Motorbike;8;Comedy
+Sonia;Professor;Bicycle;8.5;Soccer
+Antonella;Professor;Car;7;Novel
+Sonia;Accountant;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;0;1;1;0;1;1;1;1;0;0;0;0
+""
+ITERACIÓN #;6
+MEJOR APTITUD:;8
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Van;9;Movies
+Omar;Professor;Motorbike;7;Comedy
+Santiago;Merchant;Bicycle;8;Series
+Santiago;Accountant;Motorbike;8;Series
+Antonella;Engineer;Bus;9;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;0;1;0;0;0;0;1;1;0;0;0;1;1;1
+""
+ITERACIÓN #;7
+MEJOR APTITUD:;8
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Van;9;Movies
+Omar;Professor;Car;7;Comedy
+Santiago;Merchant;Bicycle;8;Novel
+Santiago;Accountant;Motorbike;8;Series
+Antonella;Engineer;Bus;9;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;0;0;1;0;1;1;0;0;1;1;1;1
+""
+ITERACIÓN #;8
+MEJOR APTITUD:;9
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Van;9;Movies
+Omar;Police;Car;7;Comedy
+Santiago;Merchant;Bicycle;8;Novel
+Santiago;Accountant;Motorbike;8;Series
+Antonella;Engineer;Bus;9;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;0;0;1;0;1;1;0;0;1;1;1;1
+""
+ITERACIÓN #;9
+MEJOR APTITUD:;9
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Bus;7.5;Novel
+Omar;Merchant;Car;7;Comedy
+Sonia;Engineer;Bicycle;9;Movies
+Santiago;Accountant;Motorbike;8;Novel
+Antonella;Merchant;Bicycle;8.5;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;1;0;1;0;1;1;0;1;1;1;0;1
+""
+ITERACIÓN #;10
+MEJOR APTITUD:;10
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Van;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Accountant;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;0;1;1;0;0;0;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;11
+MEJOR APTITUD:;11
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Bus;7.5;Novel
+Omar;Professor;Car;7;Comedy
+Sonia;Engineer;Bicycle;9;Movies
+Santiago;Accountant;Motorbike;8;Series
+Antonella;Merchant;Bicycle;8.5;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;1;0;1;0;1;1;0;1;1;1;0;1
+""
+ITERACIÓN #;12
+MEJOR APTITUD:;11
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Professor;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Bus;8;Series
+Juan;Accountant;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+0;1;1;0;0;1;1;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;13
+MEJOR APTITUD:;12
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Accountant;Bus;8.5;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Professor;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;1;1;1;0;1;1;1;1;0;1;1;0
+""
+ITERACIÓN #;14
+MEJOR APTITUD:;12
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Bus;7.5;Novel
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Bicycle;9;Movies
+Santiago;Accountant;Motorbike;8;Series
+Antonella;Engineer;Van;8.5;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;1;0;0;1;1;1;0;1;1;1;0;1
+""
+ITERACIÓN #;15
+MEJOR APTITUD:;12
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Van;9;Movies
+Omar;Professor;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Professor;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;0;1;1;0;1;1;0;1;0;1;0;0
+""
+ITERACIÓN #;16
+MEJOR APTITUD:;12
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Juan;Police;Bus;7.5;Novel
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Bicycle;9;Movies
+Santiago;Accountant;Motorbike;8;Series
+Antonella;Merchant;Motorbike;8.5;Soccer
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;1;0;1;0;1;1;0;1;1;1;0;1
+""
+ITERACIÓN #;17
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;7;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Professor;Bus;7.5;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;0;1;1;0;1;1;0;0;0;1;0;0
+""
+ITERACIÓN #;18
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Accountant;Bus;7.5;Series
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;1;0;1;1;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;19
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Professor;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;7.5;Series
+Juan;Accountant;Bus;7.5;Series
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;0;0;1;1;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;20
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Professor;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Accountant;Bus;7.5;Series
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;0;0;1;1;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;21
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Bicycle;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Accountant;Bus;7.5;Series
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;0;1;1;0;0;1;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;22
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Omar;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;8;Series
+Juan;Accountant;Bus;7.5;Series
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;1;1;0;1;1;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;23
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Antonella;Accountant;Motorbike;8;Series
+Juan;Accountant;Bus;7.5;Series
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;1;0;1;1;1;1;1;1;0;1;0;1
+""
+ITERACIÓN #;24
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Professor;Motorbike;8;Novel
+Juan;Professor;Bicycle;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+0;1;1;1;1;1;0;1;1;1;1;1;1;0;0
+""
+ITERACIÓN #;25
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;1;1;1;0;1;1;1;1;1;1;1;1
+""
+ITERACIÓN #;26
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Motorbike;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;1;1;1;0;1;1;0;1;1;1;1;1
+""
+ITERACIÓN #;27
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Professor;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+0;1;0;1;1;1;0;1;1;1;1;1;1;1;0
+""
+ITERACIÓN #;28
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Bicycle;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;0;0;1;1;0;0;1;1;1;1;1;1;1;1
+""
+ITERACIÓN #;29
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;1;1;1;0;1;1;1;1;1;1;1;1
+""
+ITERACIÓN #;30
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Engineer;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+0;1;0;1;1;1;0;1;1;1;1;1;1;1;0
+""
+ITERACIÓN #;31
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;7.5;Comedy
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;1;1;1;0;1;1;1;1;1;1;0;1
+""
+ITERACIÓN #;32
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Santiago;Accountant;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;1;1;1;0;1;1;1;1;1;1;1;1
+""
+ITERACIÓN #;33
+MEJOR APTITUD:;13
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8.5;Soccer
+Juan;Accountant;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;1;1;1;1;1;1;1;1;1;1;1;1
+""
+ITERACIÓN #;34
+MEJOR APTITUD:;15
+Persona;Profesión;Medio de transporte;Horario de entrada;Lo que mira en TV
+Antonella;Merchant;Bicycle;9;Movies
+Omar;Police;Car;7;Comedy
+Sonia;Engineer;Van;8;Soccer
+Santiago;Accountant;Motorbike;7.5;Series
+Juan;Professor;Bus;8;Novel
+REGLAS:
+1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+1;1;0;0;1;1;0;1;1;0;0;1;1;1;0

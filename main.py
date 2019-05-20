@@ -26,14 +26,14 @@ in_parameters = ['ranking', 'complement_binomial', 'simple']
 
 
 def init_logs():
-    with open('logs_2.csv', 'w', newline='') as csvFile:
+    with open('logs_3.csv', 'w', newline='') as csvFile:
         writer = csv.writer(csvFile, delimiter=';')
         writer.writerow(['MÉTODO SELECCIÓN', 'MÉTODO CRUZAMIENTO', 'MÉTODO MUTACIÓN'])
         writer.writerow(in_parameters)
 
 
 def log_iteration(iterations, population, best_aptitude):
-    with open('logs_2.csv', 'a', newline='') as csvFile:
+    with open('logs_3.csv', 'a', newline='') as csvFile:
         writer = csv.writer(csvFile, delimiter=';', )
         writer.writerow([''])
         writer.writerow(['ITERACIÓN #', str(iterations)])
