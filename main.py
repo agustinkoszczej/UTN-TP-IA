@@ -12,7 +12,7 @@ from flow.selectors import RandomSelection, RankingSelection, TournamentSelectio
 random.seed(42)  # To reproduce a random (for testing)
 
 # Number of possible solutions
-n_chromosomes = 100
+n_chromosomes = 10000
 
 # Input parameters
 # SELECTOR = ['random, ranking, tournament']
@@ -21,17 +21,19 @@ n_chromosomes = 100
 
 in_parameters = ['ranking', 'complement_binomial', 'simple']
 
+
 # Main Problem: ¿Who is the merchant? ¿Juan, Omar, Antonella, Santiago or Sonia?
 
+
 def init_logs():
-    with open('logs.csv', 'w', newline='') as csvFile:
+    with open('logs_2.csv', 'w', newline='') as csvFile:
         writer = csv.writer(csvFile, delimiter=';')
         writer.writerow(['MÉTODO SELECCIÓN', 'MÉTODO CRUZAMIENTO', 'MÉTODO MUTACIÓN'])
         writer.writerow(in_parameters)
 
 
 def log_iteration(iterations, population, best_aptitude):
-    with open('logs.csv', 'a', newline='') as csvFile:
+    with open('logs_2.csv', 'a', newline='') as csvFile:
         writer = csv.writer(csvFile, delimiter=';', )
         writer.writerow([''])
         writer.writerow(['ITERACIÓN #', str(iterations)])
@@ -40,8 +42,9 @@ def log_iteration(iterations, population, best_aptitude):
         for person in population.people:
             writer.writerow(person.description())
         writer.writerow(['REGLAS:'])
-        writer.writerow(range(1,16))
+        writer.writerow(range(1, 16))
         writer.writerow(population.calculate_points())
+
 
 def generate_chromosomes():
     chromosomes = []
@@ -83,7 +86,7 @@ mutations = {
 
 
 def main():
-    init_logs();
+    init_logs()
     population = generate_chromosomes()
     print("Population size:", len(population))
     best_aptitude = max(map(lambda c: c.aptitude(), population))

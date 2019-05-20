@@ -10,7 +10,7 @@ class RandomSelection:
     def select(chromosomes):
         total_size = len(chromosomes)
         random.shuffle(chromosomes)
-        quantity = np.random.randint(0, total_size)
+        quantity = np.random.randint(1, total_size)
         return chromosomes[:quantity]
 
 
@@ -18,7 +18,7 @@ class RankingSelection:
 
     @staticmethod
     def select(chromosomes):
-        take = 100
+        take = 1000
         chromosomes.sort(key=lambda chromosome: chromosome.aptitude(), reverse=True)
         return chromosomes[:take]
 
